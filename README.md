@@ -1,8 +1,5 @@
-# ![NAME_PROJECT_HERE logo]() [NAME_PROJECT_HERE]
-Template for creating a repository
-
-## Installation
-Dumbie text
+# ![HorizonCity website logo](Assets/logo.png) HorizonCity Website
+This is the principal website of HorizonCity. It contains all webpages it need to the website.
 
 ## Contribute
-Dumbie text
+If something doesn't work or you want to contribute, you can read the CONTRIBUTE.md file.
