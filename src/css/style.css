@@ -1,0 +1,27 @@
+#navmenu {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    z-index: 999;
+    background-color: white;
+}
+
+#logoImage {
+    width: 10%;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #a006f4;
+}
+
+#bottommenu {
+    text-align: center;
+    padding: 18px;
+    position: static;
+    background-color: white;
+}
+
+#brandImage {
+    width: 15%;
+}

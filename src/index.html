@@ -4,26 +4,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
         <title>HorizonCity</title>
     </head>
 
     <header>
-        <img src="img/logo.png" alt="HorizonCity Logo">
-        <h1>HorizonCity</h1>
-        <nav>
-            <ul>
-                <li><a href="join.html">Rejoindre</a></li>
-                <li><a href="rules.html">Règlements</a></li>
-                <li><a href="about.html">A propos</a></li>
-                <li><a href="contact.html">Contactez nous</a></li>
-            </ul>
-        </nav>
+        <div id="navmenu">
+            <img src="img/logo.png" alt="HorizonCity Logo" id="logoImage">
+            <h1>HorizonCity</h1>
+            <nav>
+                <a href="join.html">Rejoindre</a>
+                    <a href="rules.html">Règlements</a>
+                    <a href="about.html">A propos</a>
+                    <a href="contact.html">Contactez nous</a>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <body>
         <h2>"Là où il y a des rêves, il y a de la magie."</h2>
         <h3>"Et la magie, c'est ce qui rend le monde plus beau et plus vivant."</h3>
-        <button>Rejoindre</button>
+        <button id="joinButton">Rejoindre</button>
         <!-- <img src="img/landscape.png" alt="Landscape"> -->
         <br> <br>
         <p>Ici, nous souhaitons développer une communauté où tout les créateurs, rêveurs puissent faire ce qu'il veulent faire et réaliser leurs projets. HorizonCity est là pour les accomplir.</p>
@@ -34,12 +36,15 @@
             <li>Un launcher Open Source</li>
         </ul>
         <p>Qu'attendez vous pour pouvoir faire ce que vous voulez ? N'hésitez plus ! C'est ici que tout va se réaliser.</p>
-        <button>Rejoindre notre serveur Discord</button>
+        <a href="https://discord.gg/tEKkg5GQ5t"><button id="joinDiscordButton">Rejoindre notre serveur Discord</button></a>
     </body>
 
     <footer>
-        <p>© v38armageddon 2022-2023</p>
-        <p> Ce site utilise la license <a href="https://www.gnu.org/licenses/gpl-3.0.html"> GPL-3.0</a>.</p>
-        <p> Fait par le ❤ et hébergé sur <a href="https://github.com/HorizonCity-MC/website"> GitHub Pages</a>.</p>
+        <div id="bottommenu">
+            <p>© v38armageddon 2022-2023</p>
+            <p> Ce site utilise la license <a href="https://www.gnu.org/licenses/gpl-3.0.html"> GPL-3.0</a>.</p>
+            <p> Fait par le ❤ et hébergé sur <a href="https://github.com/HorizonCity-MC/website"> GitHub Pages</a>.</p>
+            <a href="https://www.v38armageddon.cf"><img src="img/brand.png" alt="v38armageddon" id="brandImage"></a>
+        </div>
     </footer>
 </html>
